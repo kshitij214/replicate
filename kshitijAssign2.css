@@ -1,0 +1,503 @@
+body
+{
+    padding:0;
+    width:100%;
+    margin:0;
+    height:350vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main
+{
+    height:95%;
+    width:57.5%;
+    margin-top: 5%;
+    padding-bottom: 15%;
+    border-radius: 10px;
+}
+
+.up
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 5.55%;
+    height: 50%;
+    width: 100%;
+    background-color: #81529d;
+}
+
+.top
+{
+    height: 1%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+button
+{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+button:active
+{
+    scale: 0.9;
+}
+
+.left
+{
+    height:100%;
+    width:50%;
+    margin-left: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right
+{
+    height:100%;
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: smaller;
+}
+
+img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.one
+{
+    height:34%;
+    display: flex;
+    margin-top:10%;
+    margin-left: 5%;
+    padding-bottom: 7%;
+}
+
+.oneleft
+{
+    height:100%;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.oneleftup
+{
+    height:42%;
+    margin-bottom: 2%;
+}
+
+.oneleftdown
+{
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.uptext
+{
+    padding-top: 2%;
+    height: 7%;
+    width:100%;
+    display: flex;
+    justify-content: left;
+    align-items:center ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8rem;
+}
+
+.upbar
+{
+    height: 9%;
+    width:50%;
+    display: flex;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input
+{
+    max-width: 100%;
+    padding-left: 1.5rem;
+    font-size: 0.6rem;
+    height: 100%;
+    width:90%;
+    border: 0;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.searchbutton
+{
+    background-color: white;
+    height: 100%;
+    width:12%;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.btn
+{
+    font-size: x-large;
+    height: 80%;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 184, 87);
+    border-radius: 100px;
+}
+
+.btn:active
+{
+    scale: 0.9;
+}
+
+.oneright
+{
+    height:100%;
+    width:60%;
+}
+
+.two
+{
+    background-color:#623081;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    padding-bottom: 1.5%;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.twotext
+{
+    font-size: x-small;
+}
+
+.twotexts
+{
+    font-size: small;
+    color: yellowgreen;
+}
+
+.three
+{
+    height:30%;
+    display:flex;
+    padding-bottom: 3%;
+    padding-top: 7%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.threeright
+{
+    width:50%;
+}
+
+.threeleft
+{
+    /* height:100%; */
+    width: 50%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-right: 5%;
+}
+
+.threetext
+{
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.threetexts
+{
+    font-size: x-small;
+    color: #957eaf;
+}
+
+.cardsecwrapper
+{
+    position: relative;
+}
+
+.cardsec
+{
+    background-color: red;
+    height:7%;
+    width:95%;
+    display: flex;
+    gap:1rem;
+    justify-content: right;
+    position: absolute;
+    z-index: 100;
+    top: -50px;
+}
+
+.cards
+{
+    height:150px;
+    width:20%;
+    background-color: #f8b53c;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+.cardsnum
+{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c98d19;
+    margin: 0;
+}
+
+.cardstext
+{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.four
+{
+    height:30%;
+    display: flex;
+    padding-bottom: 25%;
+    margin: 5%;
+    margin-top: 20%;
+}
+
+.fourtext
+{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourleft
+{
+    height:100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.fourleftup
+{
+    /* height:30%; */
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.fourleftdown
+{
+    background-color: blueviolet;
+    height:50%;
+    width: 100%;
+}
+
+.fourlrtext
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourlrtexts
+{
+    color: #afb3b4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+.fourright
+{
+    height:100%;
+    width: 50%;
+}
+
+.fourrightup
+{
+    height:60%;
+    width: 100%;
+    margin-bottom: 30%;
+}
+
+.fourrightdown
+{
+    height:40%;
+    width: 100%;
+}
+
+.five
+{
+    height:20%;
+    margin:5%;
+    padding-bottom: 20%;
+}
+
+.fiveup
+{
+    height:70%;
+    width: 100%;
+    padding-bottom: 12%;
+}
+
+.fiveuptxt
+{
+    /* height:33%; */
+    width:100%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fiveupmid
+{
+    height:50%;
+    width:100%;
+    display: flex;
+}
+
+.card
+{
+    height:100%;
+    width: 100%;;
+}
+
+.timeline
+{
+    height:30%;
+    width:100%;
+    display: flex;
+}
+
+.number
+{
+    width: 20%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8b53c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parentborder
+{
+    width: 80%;
+    height: 100%;
+}
+
+.topborder
+{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px dashed gray;
+
+}
+
+.content
+{
+    /* height:70%; */
+    width:100%;
+}
+
+.contenthead
+{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenttext
+{
+    font-size: x-small;
+    color: #afb3b4;
+    margin-right: 5%;
+}
+
+.fiveupdown
+{
+    height:28%;
+    width:100%;
+    display: flex;
+}
+
+.fiveleft
+{
+    /* height: 100%; */
+    width: 35%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.fiveright
+{
+    /* height: 100%; */
+    width: 65%;
+    display: flex;
+    align-items: center;
+    font-size: xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5e5f5f;
+}
+
+.fivedown
+{
+    /* height:30%; */
+    width: 100%;
+    display: flex;
+    background-color: #f8f8f8;
+}
+
+.fivetable
+{
+    /* height: 100%; */
+    width: 100%;
+}
+
+.tablehead
+{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabletext
+{
+    font-size: xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #919596;
+}
